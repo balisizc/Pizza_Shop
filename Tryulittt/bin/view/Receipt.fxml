@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #690700;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReceiptController">
+    <children>
+        <ImageView blendMode="MULTIPLY" fitHeight="400.0" fitWidth="600.0" layoutY="-14.0">
+            <image>
+                <Image url="@../Images/bgpizza%201.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="cardNumberLabel" layoutX="110.0" layoutY="163.0" prefHeight="37.0" prefWidth="369.0" style="-fx-text-fill: white;" textFill="#fff1f1">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Label>
+        <Label fx:id="expiryDateLabel" layoutX="124.0" layoutY="229.0" prefHeight="62.0" prefWidth="340.0" style="-fx-text-fill: white;" textFill="#fff1f1">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Label>
+        <Label fx:id="cvvLabel" layoutX="130.0" layoutY="308.0" prefHeight="62.0" prefWidth="340.0" style="-fx-text-fill: white;" textFill="#fff1f1">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Label>
+        <Label fx:id="cardHolderNameLabel" layoutX="79.0" layoutY="68.0" prefHeight="62.0" prefWidth="476.0" style="-fx-text-fill: white;" textFill="#fff1f1">
+         <font>
+            <Font name="Bauhaus 93" size="18.0" />
+         </font></Label>
+      <Label layoutX="235.0" layoutY="14.0" prefHeight="46.0" prefWidth="144.0" text="Receipt" textFill="#fff6f6">
+         <font>
+            <Font name="Bauhaus 93" size="36.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
